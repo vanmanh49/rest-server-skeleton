@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "incremental": true,
+        "paths": {
+            "@user/*": ["src/user/*"],
+            "@auth/*": ["src/auth/*"],
+            "@common/*": ["src/common/*"],
+            "@config/*": ["src/auth/config/*"]
+        }
+    }
+}
